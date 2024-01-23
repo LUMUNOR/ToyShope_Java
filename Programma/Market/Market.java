@@ -8,10 +8,14 @@ import java.util.ArrayList;
 public class Market {
     private List<Toy> listToy;
     private Scanner scanner;
+    private ArrayList<Integer> contToys;
+    private ArrayList<Double> probabilits;
     
     public Market(){
         listToy = new ArrayList<>();
         scanner = new Scanner(System.in);
+        contToys = new ArrayList<Integer>();
+        probabilits = new ArrayList<Double>();
     }
 
     public void addToy(){
@@ -33,6 +37,10 @@ public class Market {
 
     }
 
+    /**
+     * Метод "выдачи" (сохранение в файл) игрушки 
+     * @param toy
+     */
     public void issuance (Toy toy){
 
     }

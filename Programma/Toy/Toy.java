@@ -6,15 +6,18 @@ public class Toy {
     private Integer count;
     private Double probability;
 
-    public Toy(Integer id, String name, Integer count, Double probability){
+    public Toy(Integer id, String name, Integer count){
         this.id = id;
         this.name = name;
         this.count = count;
-        this.probability = probability;
     }
 
     public Double get_probability(){
         return this.probability;
+    }
+    
+    public void set_probability(Double ver){
+        this.probability = ver;
     }
 
     public void count_(){
