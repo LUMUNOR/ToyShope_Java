@@ -15,6 +15,18 @@ public class Toy {
     public Double get_probability(){
         return this.probability;
     }
+
+    public String get_name(){
+        return this.name;
+    }
+
+    public Integer get_count(){
+        return this.count;
+    }
+   
+    public void set_one_count(){
+        this.count = 1;
+    }
     
     public void set_probability(Double ver){
         this.probability = ver;
